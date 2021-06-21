@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap css -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Trilha 5</title>
+</head>
+<body>
+    <div class="titulo">
+        <h1>Formulário</h1>
+    </div>
+        <!--<form method="POST" action="">
+            <p>
+                <label for="nome">Seu nome: </label>
+                <input id="nome" name="nome" required="required" type="text"
+                placeholder="ex. Arthur Diogo" size="80" maxlength="80">
+            </p>
+            <p>
+                <label for="endereco">Seu endereço: </label>
+                <input  id="endereco" name="endereco" required="required" type="text"
+                placeholder="ex. Rua Marize Barros" size="120" maxlength="120">
+            </p>
+            <p>
+                <label for="numero">Número da casa ou apartamento: </label>
+                <input id="numero" name="numero" required="required" type="text"
+                placeholder="ex. 99" size="10" maxlength="10">
+            </p>
+            <p>
+                <label for="complemento">Se for apartamento ou condomínio, qual o complemento: </label>
+                <input  id="complemento" name="complemento" type="text"
+                placeholder="ex. Casa 230" size="50" maxlength="50">
+            </p>
+            <p>
+                <label for="cidade">Sua cidade: </label>
+                <input id="cidade" name="cidade" required="required" type="text"
+                placeholder="ex. Teresópolis" size="50" maxlength="50">
+            </p>
+            <p>
+                <label for="estado">Seu estado: </label>
+                <input  id="estado" name="estado" required="required" type="text"
+                placeholder="ex. Rio de Janeiro" size="2" maxlength="2">
+            </p>
+            <input type="button" >
+        </form> -->
+        <div class="container">
+            <form method="POST" action="valida.php">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="nome">Seu nome:</label>
+                        <input type="text" class="form-control" required name="nome" placeholder="ex. Arthur Diogo" maxlength="80">
+                    </div>                
+                </div>
+        
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="endereco">Seu endereço:</label>
+                        <input class="form-control" name="endereco" required type="text" placeholder="ex. Rua Marize Barros" maxlength="120">
+                    </div>                
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="numero">Número da casa ou apartamento:</label>
+                        <input type="number" class="form-control" required name="numero" placeholder="ex. 99" maxlength="10">
+                    </div>                
+                </div>
+        
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="complemento">Se for apartamento ou condomínio, qual o complemento:</label>
+                        <input class="form-control" name="complemento" required type="text" placeholder="ex. Casa 230" maxlength="50">
+                    </div>                
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="cidade">Sua cidade:</label>
+                        <input type="text" class="form-control" required name="cidade" placeholder="ex. Teresópolis" maxlength="50">
+                    </div>                
+                </div>
+        
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="estado">Seu estado:</label>
+                        <input class="form-control" name="estado" required type="text" placeholder="ex. RJ" maxlength="2">
+                    </div>                
+                </div>
+                <button type="submit" class="btn btn-primary mt-2">Entregar</button>
+            </form>
+        </div>
+
+    <!-- bootstrap bundle with popper -->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>
